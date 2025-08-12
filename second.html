@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+      <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            /* background-color: #f0f0f0; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        nav{
+           background: linear-gradient(60deg , rgb(240, 68, 33)  ,rgb(255, 128, 0));
+            width: 100%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding: 0 60px;
+        }
+        nav #text{
+            font-size: 30px;
+            color: white;
+            /* font-weight: bold; */
+            text-transform: capitalize;
+        }
+        #button{
+            width: 95%;
+            height: 50px;
+            background: linear-gradient(60deg , rgb(240, 68, 33)  ,rgb(255, 128, 0));
+            margin: 10px 0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            color: white;
+            padding: 0 15px;
+        }
+        #ticket{
+            width: 95%;
+            height: 300px;
+            background-color: rgb(255, 253, 253);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            border: 1px solid rgba(128, 128, 128, 0.415);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background: url("booked-stamps-2C2CYPJ-removebg-preview.png");
+            background-position: 140px 100px;
+            background-size: 120px;
+            background-repeat: no-repeat;
+        }
+        #ticket #journey{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* padding: 20px; */
+            width: 95%;
+            height: 40px;
+            background: linear-gradient(60deg , rgb(240, 68, 33)  ,rgb(255, 128, 0));
+        }
+        .one{
+            border: 1px solid white;
+            width: 180px;
+            height: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: rgb(243, 240, 240);
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+
+
+        }
+          #ticket  #tick{
+             display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* padding: 20px; */
+            width: 95%;
+            height: 40px;
+            background-color: rgb(255, 255, 255);
+           
+        }
+
+        .two{
+            
+            border: 1px solid rgba(201, 199, 199, 0.724);
+            width: 180px;
+            height: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+
+
+        
+        }
+        .three{
+            
+            /* border: 1px solid rgba(201, 199, 199, 0.724); */
+            width: 180px;
+            height: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+
+
+        
+        }
+        .four{
+            
+             border: 1px solid rgba(201, 199, 199, 0.724); 
+            width: 180px;
+            height: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+
+
+        
+        }
+        .five{
+            
+             border: 1px solid rgba(201, 199, 199, 0.724); 
+            width: 220px;
+            height: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+
+
+        
+        }
+        .six{
+            font-size: 12px;
+            /* background-color: red; */
+        }
+        span{
+            font-weight: 500;
+            color: red;
+        }
+        #image{
+              top: 230px;
+            position: absolute;
+            width: 140px;
+            height: 140px;
+            /* background-color: red; */
+            overflow: hidden;
+
+        }
+        #image img{
+          
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <nav>
+        <div id="text">
+            Show Ticket
+        </div>
+
+
+    </nav>
+
+    <div id="button">
+        <i class="ri-coupon-3-fill">SHOW TICKET</i>
+
+    </div>
+
+
+    <div id="ticket">
+        <div id="journey">
+            <div class="one">JOURNEY (M-TICKET)</div>
+            <div class="one">FARE: 5.00</div>
+        </div>
+        <div id="tick">
+            <div class="two">GARIA F</div>
+            <div class="two">SANTOSHPUR F</div>
+        </div>
+        <div id="tick">
+            <div class="three">Via : <span>BLN</span></div>
+            <!-- <div class="two">FARE: 5.00</div> -->
+        </div>
+        <div id="tick">
+            <div class="four">ADULT:1 CHILD:0</div>
+            <div class="four">SECOND(||)</div>
+            <div class="four">ORDINARY(0)</div>
+        </div>
+        <div id="tick">
+            <div class="five" id="date">BOOKING DATE :{showTimes()} </div>
+            <div class="six">UTS no:XEKWE55035</div>
+        </div>
+        <div id="tick">
+            <div class="two"><span>VIEW TICKET</span></div>
+            <div class="two"><span>NEXT TRAINS</span></div>
+        </div>
+        <!-- <div id="tick">
+            <div class="two">JOURNEY (M-TICKET)</div>
+            <div class="two">FARE: 5.00</div>
+        </div> -->
+
+        <div id="image">
+            <img src="booked-stamps-2C2CYPJ-removebg-preview.png" alt="">
+        </div>
+    
+    
+        <script src="date.js"></script>
+
+    </div>
+</body>
+</html>
