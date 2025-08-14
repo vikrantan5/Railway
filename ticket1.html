@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+           
+
+            
+        }
+        .ticket {
+            background-color: #FFC5F5;
+            width: 90%;
+            padding: 10px;
+            border: 1px solid rgba(204, 202, 202, 0.685);
+            /* border-radius: 10px; */
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
+        .ticket1 {
+            background-color: #ffffff;
+            width: 90%;
+            padding: 10px;
+            border: 1px solid rgba(204, 202, 202, 0.685);
+            border-radius: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .header img {
+            width: 50px;
+        }
+        .journey {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .details {
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .station {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .station span {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .station p {
+            margin: 0;
+        }
+        .info {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .warning {
+            font-size: 10px;
+            color: #ff0000;
+            margin-bottom: 10px;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .button {
+            background-color: #ff4500;
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .footer {
+            font-size: 10px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        #t1{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+           .header {
+      /* background-color: #f28c38; */
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header img{
+        border-radius: 50%;
+    }
+      
+    </style>
+</head>
+<body>
+    <div id="t1">
+
+         <div class="header">
+    
+    <div>UTS<br>IR Unreserved Ticketing</div>
+    <img src="indian-railways-logo-png_seeklogo-310214.png" alt="IR Logo">
+    <!-- <button class="login">LOGIN</button> -->
+  </div>
+        
+        <div class="ticket">
+       
+        <hr>
+        <div class="journey">JOURNEY <span id="date2"></span></div>
+        <p>₹5.00/- ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 9163310898</p>
+        <p><b>UTS No: </b> XEKWE55035</p>
+        <hr>
+        <div class="details">
+            <div class="station">
+                <span>⒮</span>
+                <p>GARIA F<br>गड़िया</p>
+            </div>
+            <div class="station">
+                <span>Ⓓ</span>
+                <p>SANTOSHPUR F<br>संतोषपुर</p>
+            </div>
+            <p><b>Adult</b>: 1 <b>Child</b>: 0</p>
+            <p>CLASS: <b>SECOND</b> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎   TRAIN TYPE: <b>ORDINARY</b></p>
+            <hr>
+            <p>via BLN</p>
+            <hr>
+            <p>SAC:9996411 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  IR: <b>19AAAGM0289C1ZG</b> </p>
+           <hr>
+            <p>Journey Should Commence within 1 hour</p>
+            <p> <b>R27380</b>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎   Distance: 20 km</p>
+            <p><b>Booking Time:</b> <span id="date1">07/08/2025 16:01</span></p>
+        </div>
+       
+    </div>
+
+ <div class="ticket1">
+    <div class="info">
+            It is recommended not to perform factory reset or change your handset whenever you are having valid ticket in mobile. Click for Changing Handset with Valid Ticket
+        </div>
+        <div class="warning">
+            FOR MEDICAL EMERGENCY / FIRST AID . CONTACT TICKET CHECKING STAFF/GUARD OR DIAL 139
+        </div>
+        <div class="buttons">
+            <div class="button">OPEN QR CODE</div>
+            <div class="button">NEXT TRAINS TO SANTOSHPUR F.</div>
+            <a href="second.html"> <div class="button">OK</div></a>
+           
+        </div>
+        <div class="footer">
+            Centre for Railway Information Systems (CRIS)
+        </div>
+
+ </div>
+
+    </div>
+    
+
+    <script src="date.js"></script>
+     
+</body>
+</html>
